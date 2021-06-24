@@ -61,22 +61,11 @@ section{
 	background-position: right;
 	background-size: 65px;
 }
-.education{
-	background-image: url("images/edu-bg.png");
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 15%;
-}
-.university-edu{
-	box-shadow: 10px 10px 50px orange;
-	height: 60%;
-	border-radius: 100px;
 
-}
 .single-experience{
 	box-shadow: 10px 10px 40px black;
-	brdoer-radius: 15px;
 	height: 75%;
+	border-radius: 15px;
 
 }
 .experience-area{
@@ -111,6 +100,15 @@ section{
 	box-shadow: 10px 10px 50px gray;
 	height: 60%;
 	border-radius: 45px;
+}
+.project{
+
+	height: 400px;
+	padding-bottom: 150px;
+	background-image: url("images/exp-bg.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 80px;
 }
 
 
