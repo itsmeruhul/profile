@@ -2,6 +2,10 @@ h1{
 	font-size: 50px;
 
 }
+h2{
+
+	font-size: 40px;
+}
 
 body{
 
@@ -12,12 +16,17 @@ body{
 
 	color: orange;
 }
+.name2{
+
+	color: rgb(204, 204, 0);
+}
 .half-width{
 
     width: 43%;
 	margin-left: 4%;
 	padding-left: 2%;
 	float: left;
+	
 
 
 }
@@ -35,4 +44,80 @@ body{
 section{
 
 	height: 500px;
+	padding-bottom: 150px;
 }
+.link-button{
+
+   text-decoration: none;
+   background-image: linear-gradient(45deg, orange,tomato);
+   padding: 10px 20px;
+   font-weight: 700;
+   color: white;
+   border-radius: 5px;
+}
+.dream-area{
+	background-image: url("images/dream-bg.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 65px;
+}
+.education{
+	background-image: url("images/edu-bg.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 15%;
+}
+.university-edu{
+	box-shadow: 10px 10px 50px orange;
+	height: 60%;
+	border-radius: 100px;
+
+}
+.single-experience{
+	box-shadow: 10px 10px 40px black;
+	brdoer-radius: 15px;
+	height: 75%;
+
+}
+.experience-area{
+	background-image: url("images/exp-bg.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 80px;
+}
+#full-stack{
+	border-left: 5px solid;
+	border-image: linear-gradient(180deg,orange, tomato);
+	border-image-slice: 1;
+}
+#junior-web{
+	border-left: 5px solid;
+	border-image: linear-gradient(180deg, black,blue);
+	border-image-slice: 1;
+}
+.education{
+	background-image: url("images/edu-bg.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 15%;
+}
+.university-edu{
+	box-shadow: 10px 10px 50px gray;
+	height: 60%;
+	border-radius: 45px;
+
+}
+.college-edu{
+	box-shadow: 10px 10px 50px gray;
+	height: 60%;
+	border-radius: 45px;
+}
+
+
+footer p{
+
+	text-align: center;
+	font-size: 15px;
+}
+
+
